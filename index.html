@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+<title>hunger games</title>
+</head>
+<body>
+    <button id='menu-button' class="header-button">Home</button>
+    <div id="home">
+        <h1>Hypixel forums hunger games simulator</h1>
+        <button class='header-button' id="import-button">Import from text</button>
+        <br>
+        <button class='header-button' id="custom-button">Custom</button>
+    </div>
+    <div id="entry" class="hidden">
+        <div class="amount-input">
+            <label for="amount">How many forumers will be participating?</label><br>
+            <input type="text" name="amount"><br><br>
+            <button id="submit-amount">Submit</button>
+        </div>
+        <div class="name-input hidden">
+            <label for="death-chance">Chance of each event being a ban event</label>
+            <input type="text" name="death-chance" value="25"> 
+            <div class="contestant-template">
+                <label for="name">Name:</label>
+                <input type="text" name="name"><br>
+            </div>
+            <br><br>
+            <button id="submit-contestants" class="importing-bar">Submit</button>
+            <button id="export-button" class="importing-bar">Export</button>
+        </div>
+    </div>
+    <div id="game-phase">
+        <div id="name-confirmation">
+            <h1>The Forumers</h1>
+            <p id="tribute-list"></p>
+        </div>
+        <div id="day">
+            <h1 id="day-number">Day 1</h1>
+            <p id="day-events"></p>
+            <!--<div id="day-events">
+                <p id="event-template" class="hidden"></p>
+            </div>-->
+        </div>
+        <div id="fallen" class="hidden">
+            <h1 id="fallen-number">Fallen Forumers 1</h1>
+            <h3 id="fallen-amount"></h3>
+            <p id="fallen-contestants"></p>
+        </div>
+        <div id="game-end">
+            <h1>The Winner</h1>
+            <h3 id="winner-text"></h3>
+        </div>
+        <button id="proceed">Proceed</button>
+        <button id="export-button-end" class="hidden">Export setup</button>
+    </div>
+    <div id='export-box' class="hidden">
+        <input id="export-output" readonly> <br>
+        <button id="close-export-box">Close</button>
+    </div>
+    <div id='import-box' class="hidden">
+        <input id="import-input"> <br>
+        <div id="import-button-container">
+            <button id="import" class="import-box-button">Import</button>
+            <button id="close-import" class="import-box-button">Cancel</button>
+        </div>
+    </div>
+</body>
+    <script src="main.js"></script>
+</html>

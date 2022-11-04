@@ -1,0 +1,122 @@
+body {
+  background: #5d5050;
+  font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+#game-phase {
+    text-align: center;
+    display: none;
+    color:white;
+}
+
+div {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.contestant {
+    padding-bottom: 0.4%;
+}f
+
+#fallen {
+    display:none;
+}
+
+#day {
+    display:none;
+}
+
+.name-confirmation {
+    display: none;
+}
+
+#game-end {
+    display:none;
+}
+
+body {
+    margin: 0%;
+}
+
+.header-button {
+    margin-top: 0.3%;
+    margin-bottom: 1%;
+    margin-left: 0.3%;
+    height:40px;
+    width:100px;
+    font-size: medium;
+}
+
+button {
+    background-color: rgb(32, 32, 32); 
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    cursor: pointer;
+    height:30px;
+    width:70px;
+}
+
+#entry {
+    margin:0.5%;
+}
+
+.hidden {
+    display:none;
+}
+
+.importing-bar {
+    margin:0px;
+    float:left;
+}
+
+#export-button-end {
+    height:fit-content;
+    width:fit-content;
+}
+
+#export-box, #import-box {
+    background-color: grey;
+    text-align: start;
+    position:absolute;
+    top: 10%;
+    bottom:10%;
+    left:10%;
+    right:10%;
+}
+
+#export-output, #import-input {
+    height:90%;
+    width:95%;
+    margin: 0;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#close-export-box, #import-button-container {
+    position: absolute;
+    left: 50%;
+    bottom:2.5%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#home {
+    margin-left: 0.5%;
+}
+
+.import-button {
+    float:left;
+}
