@@ -2,12 +2,12 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
-<title>hunger games</title>
+<title>Hypixel Forum Games Simulator</title>
 </head>
 <body>
     <button id='menu-button' class="header-button">Home</button>
     <div id="home">
-        <h1>Hypixel forums hunger games simulator</h1>
+        <h1>Hypixel Forums Hunger Games Simulator</h1>
         <button class='header-button' id="import-button">Import from text</button>
         <br>
         <button class='header-button' id="custom-button">Custom</button>
@@ -15,15 +15,17 @@
     <div id="entry" class="hidden">
         <div class="amount-input">
             <label for="amount">How many forumers will be participating?</label><br>
-            <input type="text" name="amount"><br><br>
+            <input type="text" class='input-field' name="amount"><br><br>
             <button id="submit-amount">Submit</button>
         </div>
         <div class="name-input hidden">
             <label for="death-chance">Chance of each event being a ban event</label>
-            <input type="text" name="death-chance" value="25"> 
+            <input type="text" name="death-chance" class='input-field' value="30"> <br><br>
+            <label for="censored-checkmark">Censor events (for posting screenshots on the forums)</label> 
+            <input type="checkbox" name="censored-checkmark">
             <div class="contestant-template">
                 <label for="name">Name:</label>
-                <input type="text" name="name"><br>
+                <input type="text" class="input-field" name="name"><br>
             </div>
             <br><br>
             <button id="submit-contestants" class="importing-bar">Submit</button>
@@ -44,7 +46,10 @@
         </div>
         <div id="fallen" class="hidden">
             <h1 id="fallen-number">Fallen Forumers 1</h1>
+            <img src="Evil-Teddy.png" alt="Evil Teddy" height="250">
             <h3 id="fallen-amount"></h3>
+            <h3 id="living-amount"></h3>
+            <p id="fallen-contestants">The forumers who were banned today are:</p>
             <p id="fallen-contestants"></p>
         </div>
         <div id="game-end">
@@ -55,11 +60,11 @@
         <button id="export-button-end" class="hidden">Export setup</button>
     </div>
     <div id='export-box' class="hidden">
-        <input id="export-output" readonly> <br>
+        <input id="export-output" class='input-field' readonly> <br>
         <button id="close-export-box">Close</button>
     </div>
     <div id='import-box' class="hidden">
-        <input id="import-input"> <br>
+        <input class='input-field' id="import-input"> <br>
         <div id="import-button-container">
             <button id="import" class="import-box-button">Import</button>
             <button id="close-import" class="import-box-button">Cancel</button>
