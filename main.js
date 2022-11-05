@@ -240,7 +240,7 @@ function Night () {
     document.getElementById('fallen-contestants').innerText = fallenTributes.join('\n')
 
     document.getElementById('day').style.display = 'none'
-    document.getElementById('fallen').classList.remove('hidden')// style.display = "block";
+    document.getElementById('fallen').classList.remove('hidden')
 
     window.sessionStorage.setItem('names', names.join(','))
     fallenTributes = []
@@ -261,7 +261,7 @@ function GetNameCount (event) {
 }
 
 async function GetEvent (pplCount) {
-    let event = randomEvent()// events[RandomRange(0, Math.floor(Math.random()*events.length))]; //RandomRange(0, 1) > 0.5 ? events[RandomRange(0, Math.floor(Math.random()*events.length))] : deaths[events[RandomRange(0, Math.floor(Math.random()*events.length))]];
+    let event = randomEvent()
     let eCount = GetNameCount(event)
     while (pplCount < eCount) {
         event = randomEvent()

@@ -94,10 +94,6 @@ button {
     background: #e6ae47;
     min-width: 80px;
     border-color: #e9b85d #e3a431 #e3a431 #e9b85d;
-  /*  transition-property: background-color, border-color, color;
-    transition-duration: 0.125s, 0.125s, 0.125s;
-    transition-timing-function: ease, ease, ease;
-    transition-delay: 0s, 0s, 0s; */
 }
 button:hover {
     background-color: #e19e23;
