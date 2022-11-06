@@ -218,7 +218,7 @@ async function Generate () {
         }
 
         event = event
-            .replaceAll('@death{name}1', `<span style="color:red">${people[0]}</span>`).replaceAll('@death{name}2', `<span style="color:red">${people[1]}</span>`).replaceAll('@death{name}3', `<span style="color:red">${people[2]}</span>`).replaceAll('@death{name}4', `<span style="color:red">${people[3]}</span>`).replaceAll('@death{name}5', `<span style="color:red">${people[4]}</span>`)
+            .replaceAll('@death{name}1', `<span style="color:#FB607F">${people[0]}</span>`).replaceAll('@death{name}2', `<span style="color:#FB607F">${people[1]}</span>`).replaceAll('@death{name}3', `<span style="color:#FB607F">${people[2]}</span>`).replaceAll('@death{name}4', `<span style="color:#FB607F">${people[3]}</span>`).replaceAll('@death{name}5', `<span style="color:#FB607F">${people[4]}</span>`)
             .replaceAll('{name}1', `<span style="color:orange">${people[0]}</span>`).replaceAll('{name}2', `<span style="color:orange">${people[1]}</span>`).replaceAll('{name}3', `<span style="color:orange">${people[2]}</span>`).replaceAll('{name}4', `<span style="color:orange">${people[3]}</span>`).replaceAll('{name}5', `<span style="color:orange">${people[4]}</span>`)
             .replaceAll('shit', censor == 'true' ? '****' : 'shit')
         GeneratedEvents.push(event)
