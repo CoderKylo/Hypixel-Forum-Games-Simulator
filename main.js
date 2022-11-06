@@ -58,7 +58,8 @@ const events = [
     '{name}1 cooks some popcorn.',
     '{name}1 yells at {name}2 to go to sleep until they eventually give in.',
     '{name}1 compiles over a hundred forumers personal details in a spreadsheet.',
-    '{name}1 reads.'
+    '{name}1 reads.',
+    '{name}1 buys lemons.'
 ]
 const deaths = [
     '@death{name}1 loses against {name}2 in the forumer showdown.',
@@ -81,7 +82,7 @@ const deaths = [
     '@death{name}1 was found to be alt abusing and got banned.',
     '@death{name}1 makes extremist political posts and gets banned.',
     '@death{name}1 posts pictures of literal poop.',
-    '@death{name}1 takes the advice of a forumer and sends the Russian national anthem to their crush.',
+    '@death{name}1 takes the advice of forumers, causing them to ruin all chances of ever dating their crush.',
     '@death{name}1 takes the advice of a forumer and lies to their parents.',
     '@death{name}1 was roasted to death by a rabid combo between a snake and a dog.',
     '@death{name}1 becomes a juju non.',
@@ -102,7 +103,7 @@ const deaths = [
     '@death{name}1 spams low quality copypasta posts until they eventually get banned.',
     '@death{name}1 makes a post about a random thing that happened to them IRL. Unfortunately, {name}2 didn\'t ask. Ouch!',
     '{name}1 makes a controversial bait post. @death{name}2 failed to see their true intentions, spending their entire day arguing with them before passing out because of exhaustion.',
-    '{name}1 posts pictures of their cat. @death{naem}2 says they don\'t like cats, a post that promptly gets them canceled by the entirety of the forums.',
+    '{name}1 posts pictures of their cat. @death{name}2 says they don\'t like cats, a post that promptly gets them canceled by the entirety of the forums.',
     '@death{name}1 loses in the forumer showdown to {name}2 solely because @death{name}1 voted for {name}2 instead of themself.',
     'Unaware of milestone dislikers, @death{name}1 makes a thread to celebrate 1k messages that gets disliked by {name}1.',
     '{name}1 posts a rick roll link. {name}2 and {name}3 see through it, but @death{name}4 and @death{name}5 fall victim to it.',
