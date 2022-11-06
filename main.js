@@ -44,7 +44,7 @@ const events = [
     '{name}1 drinks water.',
     '{name}1 moves to Ohio.',
     '{name}1 begs {name}2 to give them a dislike, but they refuse.',
-    '{name}1 and {name}1 have a "civil" conversation regarding politics including passive agressive remarks about fact checking.',
+    '{name}1 and {name}2 have a "civil" conversation regarding politics including passive agressive remarks about fact checking.',
     '{name}1 visits Ohio.',
     '{name}1 and {name}2 edate.',
     '{name}1 abandons their postfarming ways to become a profile main.',
